@@ -1,0 +1,41 @@
+{
+    "name": "charta-studio-website",
+    "version": "1.0.0",
+    "description": "Website promosi modern untuk Charta Studio - Studio Band Terbaik di Payakumbuh",
+    "main": "index.html",
+    "scripts": {
+        "start": "python3 -m http.server 8000",
+        "dev": "python3 -m http.server 8000",
+        "build": "echo 'Static website - no build process needed'",
+        "deploy": "echo 'Upload files to your web hosting'"
+    },
+    "keywords": [
+        "studio-band",
+        "music",
+        "payakumbuh",
+        "website",
+        "promosi",
+        "responsive",
+        "modern"
+    ],
+    "author": "Charta Studio",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/charta-studio/website.git"
+    },
+    "bugs": {
+        "url": "https://github.com/charta-studio/website/issues"
+    },
+    "homepage": "https://charta-studio.com",
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
